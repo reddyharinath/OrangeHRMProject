@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[the exeuctable broseer is -- Chrome]]>
     </line>
-    <line>
-      <![CDATA[the exeuctable broseer is -- FireFox]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-12-18T15:24:06 IST" name="Suite" finished-at="2022-12-18T15:24:32 IST" duration-ms="25339">
+  <suite started-at="2022-12-18T18:35:52 IST" name="Suite" finished-at="2022-12-18T18:36:22 IST" duration-ms="29656">
     <groups>
     </groups>
-    <test started-at="2022-12-18T15:24:06 IST" name="ChromeTest" finished-at="2022-12-18T15:24:28 IST" duration-ms="21685">
-      <class name="testcases.FirstTestcase">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.FirstTestcase@3cfdd820]" started-at="2022-12-18T15:24:06 IST" name="setUp" finished-at="2022-12-18T15:24:25 IST" duration-ms="18821" status="PASS">
+    <test started-at="2022-12-18T18:35:52 IST" name="ChromeTest" finished-at="2022-12-18T18:36:22 IST" duration-ms="29656">
+      <class name="testcases.OrangeHRMLoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.OrangeHRMLoginPageTest@3cfdd820]" started-at="2022-12-18T18:35:52 IST" name="setUp" finished-at="2022-12-18T18:36:11 IST" duration-ms="18285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,46 +29,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testcase()[pri:0, instance:testcases.FirstTestcase@3cfdd820]" started-at="2022-12-18T15:24:25 IST" name="testcase" finished-at="2022-12-18T15:24:25 IST" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FirstTestcase@3cfdd820]" started-at="2022-12-18T15:24:25 IST" name="tearDown" finished-at="2022-12-18T15:24:28 IST" duration-ms="2712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.FirstTestcase -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2022-12-18T15:24:06 IST" name="FirefoxTest" finished-at="2022-12-18T15:24:32 IST" duration-ms="25339">
-      <class name="testcases.FirstTestcase">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.FirstTestcase@4f4c4b1a]" started-at="2022-12-18T15:24:06 IST" name="setUp" finished-at="2022-12-18T15:24:30 IST" duration-ms="23303" status="PASS">
+        <test-method signature="orangeHRMLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.OrangeHRMLoginPageTest@3cfdd820]" started-at="2022-12-18T18:36:11 IST" name="orangeHRMLoginTest" finished-at="2022-12-18T18:36:20 IST" duration-ms="9042" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FireFox]]>
+                <![CDATA[Admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://cra-nsdl.com/CRA/]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[the exeuctable broseer is -- FireFox]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testcase()[pri:0, instance:testcases.FirstTestcase@4f4c4b1a]" started-at="2022-12-18T15:24:30 IST" name="testcase" finished-at="2022-12-18T15:24:30 IST" duration-ms="32" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FirstTestcase@4f4c4b1a]" started-at="2022-12-18T15:24:30 IST" name="tearDown" finished-at="2022-12-18T15:24:32 IST" duration-ms="1976" status="PASS">
+        </test-method> <!-- orangeHRMLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OrangeHRMLoginPageTest@3cfdd820]" started-at="2022-12-18T18:36:20 IST" name="tearDown" finished-at="2022-12-18T18:36:22 IST" duration-ms="2215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.FirstTestcase -->
-    </test> <!-- FirefoxTest -->
+      </class> <!-- testcases.OrangeHRMLoginPageTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
